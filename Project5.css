@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+body{
+    background-image: url(bg.png);
+}
+nav ul li{
+    list-style: none;
+    padding-top: 5px;
+    padding-right: 25px;
+    font-weight: 400;
+    color: white;
+}
+.image{
+    padding-right:50px ;
+    padding-top: 5px;
+    padding-left: 30px;
+    size: 70px;
+
+}
+.button{
+    padding: 10px;
+}
+.button button{
+    color: white;
+    background-color: #aa11b0;
+    size: 45px;
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.top{
+    display: flex;
+}
+.list{
+    display: flex;
+    padding: 20px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: 500px;
+    padding-top: 90px;
+    color: white;
+}
+.smallheader{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  
+}
+.button2 button{
+    padding: 5px;
+    background-color: #ae0cc7;
+    color: white;
+    border-radius: 5px;
+    border-style: none ;
+    size: 80px;
+    padding: 10px;
+    font-weight: 400;
+
+}
+.image img{
+    size: 40px;
+}
