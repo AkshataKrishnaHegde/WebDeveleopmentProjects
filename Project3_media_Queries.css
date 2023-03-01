@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-color: black;
+}
+.multipage{
+    display: flex;
+    flex-direction: column;
+}
+.imagetop{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.topbigimage img{
+    height: 550px;
+}
+.topright{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.home ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 25px;
+}
+.scndtop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    gap: 30px;
+    margin: 40px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(44, 42, 42);
+    gap: 15px;
+    padding: 5px;
+    border-radius: 6px;
+}
+.shop{
+    background-color: rgb(42, 39, 39);
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+.on_earimg{
+    height: 40px;
+    width: 100px;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 55px;
+}
+.socials ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.specs{
+    display: flex;
+    justify-content: center;
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.leftmain{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    gap: 20px;
+}
+.bluetooth{
+    margin: 15px;
+}
+.mic{
+    margin: 15px;
+}
+.case{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.case_item{
+    padding: 20px;
+}
+.main_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    gap: 20px;
+    justify-content: center;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    background: rgb(54, 53, 53);
+    gap: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    justify-content: space-around;
+   
+}
+.main3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #302f2f;
+    border-radius: 6px;
+    height: 300px;
+    width: 650px;
+    padding: 30px;
+    gap: 30px;
+}
+.immense{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center
+}
+.buy{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-radius: 5px;
+    color: aliceblue;
+    justify-content: space-around;
+    padding: 8px;
+}
+.choose{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.earphone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.firstline{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.scndline{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.black{
+    display: flex;
+    flex-direction: column;
+}
+.redblack{
+    display: flex;
+    flex-direction: column;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    color: aliceblue;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.headphone{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 60px;
+    padding: 40px;
+}
+.products ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+.support ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+.footer_subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.mail{
+    background-color: rgb(57, 55, 55);
+    display: flex;
+    justify-content: space-between;
+}
+.sociallogo ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 30px;
+}
+.sociallogo{
+    margin-right: 10px;
+    scale: 0.8;
+}
+.end{
+    display: flex;
+    justify-content: right;
+}
+.endimg{
+    right: -160px;
+    scale: 0.8;
+    width: 40px;
+    height: 25px;
+}
+.double{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.subdiv{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    gap: 170px;
+}
+.double{
+    background-color: #181A1B;
+    border-radius: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.double input{
+    border: none;
+    background-color: transparent;
+}
+.subscribe{
+    background-color: #0A0A0B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: aliceblue;
+}
+.subscribe img{
+    scale: 0.8;
+}
+.subscribe p{
+    font-size: 12px;
+}
+.beat{
+    font-size: 60px;
+}
+.over{
+    font-size: 40px;
+}
+.scndtop p{
+    font-size: 25px;
+
+}
